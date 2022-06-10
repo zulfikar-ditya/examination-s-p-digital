@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 20px; */
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.col-4 {
+    width: calc(100% / 3 - 20px);
+    padding: 10px;
+}
+
+.shadow {
+    box-shadow: 6px 7px 10px rgba(0, 0, 0, .3);
+}
+
+img {
+    width: 100%;
+}
+
+label {
+    font-weight: 800;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.hidden {
+    display: none;
+}
